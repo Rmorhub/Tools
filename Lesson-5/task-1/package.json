@@ -1,0 +1,17 @@
+{
+  "name": "task-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:scripts": "webpack --mode=production",
+    "watch:scripts": "webpack --mode=development --devtool eval-source-map -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
